@@ -9,6 +9,16 @@
     padding-top: 5rem;
   }
 
+  .carousel-inner div {
+    height: 500px; /* Set fixed height */
+  }
+  
+  .carousel-inner img {
+    object-fit: cover; /* Ensures images are properly scaled */
+    height: 100%; /* Make images fill the height */
+    width: 100%;
+  }
+
   .project-wrapper {
     margin-bottom: 15rem;
 
