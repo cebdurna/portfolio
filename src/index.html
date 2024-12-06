@@ -136,6 +136,7 @@
                   target="_blank"
                   class="cta-btn text-color-main"
                   href="assets/CottonPanel.ino"
+                  download
                 >
                   Source Code
                 </a>
@@ -341,109 +342,86 @@
               </button>
             </div>
           </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div id="pulse-balloons" class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Pulse Balloons</h3>
+                <div>
+                  <p class="mb-4">
+                    The project collects pulse data of the user and reflects the current user's cardiovascular state by inflating corresponding painted balloons.
+                    <br><br>For pulse sensing, a MAX30102 sensor was attached to a velcro wrist strap a user can wear. An air
+                    pump in combination with multiple air valves can be used to inflate and deflate balloons, but due to better availability of parts, this project uses three
+                    distinct air pumps for three balloons. The pumps are supplied with 5V and are controlled with MOSFETs. An Arduino microcontroller handles the logic, pulse data and MOSFET gates.
+                    <br><br>These sources are great to be familiarized with MAX30102 and DC motor control using MOSFETs:
+                    <a href="https://lastminuteengineers.com/max30102-pulse-oximeter-heart-rate-sensor-arduino-tutorial/">&emsp;MAX30102</a>
+                    <a href="https://circuitdigest.com/microcontroller-projects/arduino-dc-motor-speed-control-using-mosfet">&emsp;DC w/MOSFET</a>
+                  </p>
+                </div>
+                <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn cta-btn--hero"
+                href="https://youtu.be/W16Fh-gPq-A"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="assets/EmojiBaloons.ino"
+                  download
+                >
+                  Source Code
+                </a>
+                <a
+                  rel="noreferrer"
+                  class="cta-btn text-color-main"
+                  href="assets/PulseBalloonsCircuit.png"
+                >
+                  Schematic
+                </a>
+              </div>
+            </div>
+            <div id="PulseBalloonsCarousel" class="carousel slide col-lg-8 col-sm-12" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#PulseBalloonsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#PulseBalloonsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#PulseBalloonsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#PulseBalloonsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#PulseBalloonsCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#PulseBalloonsCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              </div>
+              <div class="carousel-inner project-wrapper__image load-hidden">
+                <div class="carousel-item active img-fluid">
+                  <img src="assets/PulseBalloons1.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item img-fluid">
+                  <img src="assets/PulseBalloons2.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item img-fluid">
+                  <img src="assets/PulseBalloons3.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item img-fluid">
+                  <img src="assets/PulseBalloons4.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item img-fluid">
+                  <img src="assets/PulseBalloons5.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item img-fluid">
+                  <img src="assets/PulseBalloons6.jpeg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#PulseBalloonsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#PulseBalloonsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
-          <!-- Notice: each .row is a project -->
-          <!-- <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
-                <div>
-                  <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div> -->
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <!-- <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div> -->
-          <!-- /END Project -->
         </div>
       </div>
     </section>
